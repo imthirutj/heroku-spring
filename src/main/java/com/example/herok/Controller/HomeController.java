@@ -21,7 +21,7 @@ public class HomeController {
 		return "Hello guys...";
 	}
 	
-	@GetMapping("get")
+	@GetMapping("/get")
 	public List<MovieEntity> getMovie(){
 		return movieService.getMovie();
 	}
